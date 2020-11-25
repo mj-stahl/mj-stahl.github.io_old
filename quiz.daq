@@ -1,0 +1,88 @@
+<xml>
+  <FileInfo>
+    <Prog>DA-QuizMaker</Prog>
+    <Version>2</Version>
+  </FileInfo>
+  <FileContent>
+    <edtFormTitel>Online Quiz</edtFormTitel>
+    <cboFontHeader>Arial,Helvetica,Geneva</cboFontHeader>
+    <edtSizeHeader>12</edtSizeHeader>
+    <cboFontForm>Arial,Helvetica,Geneva</cboFontForm>
+    <edtSizeForm>10</edtSizeForm>
+    <memoEinleitung>Willkommen zu unserem Online Quiz
+</memoEinleitung>
+    <memoTextEnde></memoTextEnde>
+    <edtBGPicture></edtBGPicture>
+    <edtHGColor>C0C0C0</edtHGColor>
+    <edtHeaderColor>000000</edtHeaderColor>
+    <edtTextColor>000080</edtTextColor>
+    <edtTabColor>FFFFFF</edtTabColor>
+    <IPErrorPage></IPErrorPage>
+    <FileErrorPage></FileErrorPage>
+    <CaptchaErrorPage></CaptchaErrorPage>
+    <encoding></encoding>
+    <ProjectSettings_author></ProjectSettings_author>
+    <ProjectSettings_comment></ProjectSettings_comment>
+    <ProjectSettings_title></ProjectSettings_title>
+    <ProjectSettings_company></ProjectSettings_company>
+    <ProjectSettings_url>http://</ProjectSettings_url>
+    <chkShowAdress>0</chkShowAdress>
+    <chkName>0</chkName>
+    <chkVorname>0</chkVorname>
+    <chkStrasse>0</chkStrasse>
+    <chkPLZ>0</chkPLZ>
+    <chkOrt>0</chkOrt>
+    <chkLand>0</chkLand>
+    <chkEmail>0</chkEmail>
+    <chkForName>0</chkForName>
+    <chkForVorname>0</chkForVorname>
+    <chkForStr>0</chkForStr>
+    <chkForPlz>0</chkForPlz>
+    <chkForOrt>0</chkForOrt>
+    <chkForLand>0</chkForLand>
+    <chkForEmail>0</chkForEmail>
+    <rdBegin>0</rdBegin>
+    <rdEnd>-1</rdEnd>
+    <edtLName>Ihr Name:</edtLName>
+    <edtLVorname>Ihr Vorname:</edtLVorname>
+    <edtLStr>Straße:</edtLStr>
+    <edtLPLZ>PLZ:</edtLPLZ>
+    <edtLOrt>Ort:</edtLOrt>
+    <edtLLand>Land:</edtLLand>
+    <edtLEmail>E-Mail-Adresse:</edtLEmail>
+    <edtHeader>Bitte geben Sie hier Ihre Daten ein:</edtHeader>
+    <edtEMail></edtEMail>
+    <edtBetreff>Online Quiz</edtBetreff>
+    <edtTabWidth>500</edtTabWidth>
+    <chkShowAuswertung>-1</chkShowAuswertung>
+    <chkShowUserAnswers>0</chkShowUserAnswers>
+    <chkShowUserCorrectAnswers>-1</chkShowUserCorrectAnswers>
+    <edtAuswertungHeader>Auswertung Quiz</edtAuswertungHeader>
+    <memoAuswertung>Vielen Dank für die Teilnahme an unserem Quiz.
+</memoAuswertung>
+    <cboFormMailer>http://www.ekiwi-scripts.de/quiz/v14/quiz.php</cboFormMailer>
+    <chkShowPicDiagramm>-1</chkShowPicDiagramm>
+    <chkCaptcha>0</chkCaptcha>
+    <edtCaptchaText1>Spam-Schutz</edtCaptchaText1>
+    <cboStandardButton>-1</cboStandardButton>
+    <edtHintergrundButton>a0a0a4</edtHintergrundButton>
+    <edtFarbeButton>000000</edtFarbeButton>
+    <cboRahmenButton>solid</cboRahmenButton>
+    <edtStaerkeButton>1</edtStaerkeButton>
+    <cboStaerkeRahmen>px</cboStaerkeRahmen>
+    <edtSendenButton>Absenden</edtSendenButton>
+    <edtCancelButton>Zurücksetzen</edtCancelButton>
+    <edtPrint>Drucken</edtPrint>
+    <chkPrintButton>0</chkPrintButton>
+    <cboStandardFeld>-1</cboStandardFeld>
+    <edtHGFormField>a0a0a4</edtHGFormField>
+    <edtColorFormField>000000</edtColorFormField>
+    <edtRahmenFormField>solid</edtRahmenFormField>
+    <edtStaerkeFormField>1</edtStaerkeFormField>
+    <cboRahmenFormField>px</cboRahmenFormField>
+    <cboFontFormField>Arial,Helvetica,Geneva</cboFontFormField>
+    <edtSizeFormField>12</edtSizeFormField>
+    <cboSchriftFormEinheit>px</cboSchriftFormEinheit>
+    <ItemList/>
+  </FileContent>
+</xml>
