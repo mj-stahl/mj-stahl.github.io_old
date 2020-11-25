@@ -1,0 +1,450 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=">
+<title>
+Pfadiquiz
+</title>
+<meta name="generator" content="DA-QuizMaker V1.3">
+<style>
+<!--
+body { background-color:#C0C0C0;  }
+h1 { color:#000000; font-family:Arial,Helvetica,Geneva; font-size:24pt; }
+p,li { color:#000080; font-family:Arial,Helvetica,Geneva; font-size:22pt; }
+TD   { color:#000080; font-family:Arial,Helvetica,Geneva; font-size:22pt; }
+.tableback { background-color:#FFFFFF}
+input.button {background-color: #a0a0a4;color: #000000;border-style:solid;border-width:5px;}
+.field {background-color: #a0a0a4;color: #000000;border-style:solid;border-width:5px;Font-Family:Arial,Helvetica,Geneva;Font-Size:24px;}
+-->
+</style>
+
+<script type="text/javascript">
+<!--
+function chkFormular()
+{
+var Option = false;
+for (i = 0;  i < document.DAQUIZ.Frage1.length;  i++)
+  {
+    if (document.DAQUIZ.Frage1[ i ].checked)
+        Option = true;
+  }
+  if (!Option)
+  {
+alert("Beantwortee die Brotfrage!");
+    return (false);
+  }
+
+var Option = false;
+for (i = 0;  i < document.DAQUIZ.Frage2.length;  i++)
+  {
+    if (document.DAQUIZ.Frage2[ i ].checked)
+        Option = true;
+  }
+  if (!Option)
+  {
+alert("Beantworte die Frage!");
+    return (false);
+  }
+
+var Option = false;
+for (i = 0;  i < document.DAQUIZ.Frage3.length;  i++)
+  {
+    if (document.DAQUIZ.Frage3[ i ].checked)
+        Option = true;
+  }
+  if (!Option)
+  {
+alert("Beantworte die Frage oder es gibt niewieder Döner für dich!");
+    return (false);
+  }
+
+var Option = false;
+for (i = 0;  i < document.DAQUIZ.Frage4.length;  i++)
+  {
+    if (document.DAQUIZ.Frage4[ i ].checked)
+        Option = true;
+  }
+  if (!Option)
+  {
+alert("Beantworte die Frage!");
+    return (false);
+  }
+
+var Option = false;
+for (i = 0;  i < document.DAQUIZ.Frage5.length;  i++)
+  {
+    if (document.DAQUIZ.Frage5[ i ].checked)
+        Option = true;
+  }
+  if (!Option)
+  {
+alert("Beantworte die Frage!");
+    return (false);
+  }
+
+var Option = false;
+for (i = 0;  i < document.DAQUIZ.Frage6.length;  i++)
+  {
+    if (document.DAQUIZ.Frage6[ i ].checked)
+        Option = true;
+  }
+  if (!Option)
+  {
+alert("Beantworte die Frage du Baum!");
+    return (false);
+  }
+
+if(document.DAQUIZ.Frage7_0.value == "")  {
+alert("Beantworte die Frage");
+document.DAQUIZ.Frage7_0.focus();
+return false;
+}
+
+if (document.DAQUIZ.Frage8_0.checked == false && document.DAQUIZ.Frage8_1.checked == false && document.DAQUIZ.Frage8_2.checked == false && document.DAQUIZ.Frage8_3.checked == false && document.DAQUIZ.Frage8_4.checked == false && document.DAQUIZ.Frage8_5.checked == false && document.DAQUIZ.Frage8_6.checked == false)
+    {
+alert("Beantworte die Frage!");
+     document.DAQUIZ.Frage8_1.focus();
+     return false;
+    }
+
+var Option = false;
+for (i = 0;  i < document.DAQUIZ.Frage9.length;  i++)
+  {
+    if (document.DAQUIZ.Frage9[ i ].checked)
+        Option = true;
+  }
+  if (!Option)
+  {
+alert("Beantworte die Frage oder die Herkulesstaude beißt dich!");
+    return (false);
+  }
+
+var Option = false;
+for (i = 0;  i < document.DAQUIZ.Frage10.length;  i++)
+  {
+    if (document.DAQUIZ.Frage10[ i ].checked)
+        Option = true;
+  }
+  if (!Option)
+  {
+alert("Beantworte die Frage!");
+    return (false);
+  }
+
+if(document.DAQUIZ.Frage11_0.value == "")  {
+alert("Beantworte die Frage oder du bist Sus!");
+document.DAQUIZ.Frage11_0.focus();
+return false;
+}
+
+var Option = false;
+for (i = 0;  i < document.DAQUIZ.Frage12.length;  i++)
+  {
+    if (document.DAQUIZ.Frage12[ i ].checked)
+        Option = true;
+  }
+  if (!Option)
+  {
+alert("Beantworte die Moosfrage!");
+    return (false);
+  }
+
+
+ return(true); }//--></script>
+
+</head>
+<body>
+<form action="http://www.ekiwi-scripts.de/quiz/v14/quiz.php" method="POST" name="DAQUIZ" onSubmit="return chkFormular()" enctype="multipart/form-data">
+  <input type="hidden" name="formid" value="2125428">
+  <input type="hidden" name="settings" value="cebr">
+  <input type="hidden" name="settingsc" value="cXZ7ZHI=">
+  <input type="hidden" name="showUserAnswers" value="false">
+  <input type="hidden" name="chkShowUserCorrectAnswers" value="true">
+  <input type="hidden" name="showPicDiagramm" value="true">    
+  <input type="hidden" name="textauswerthead" value="Auswertung Quiz">
+  <input type="hidden" name="textauswert" value="VmllbGVuIERhbmsgZvxyIGRpZSBUZWlsbmFobWUgYW4gdW5zZXJlbSBRdWl6Lgo=">
+  <input type="hidden" name="subject" value="Online Quiz">
+  <input type="hidden" name="admin" value="Z3F2c35mYn5tV3p9OmRjdn97OXNy">
+	<input type="hidden" name="settings_encoding" value="">  
+  <input type="hidden" name="bgcolor" value="C0C0C0">
+  <input type="hidden" name="tablecolor" value="FFFFFF">
+  <input type="hidden" name="textcolor" value="000080">
+  <input type="hidden" name="headingcolor" value="000000">
+  <input type="hidden" name="headingfont" value="Arial,Helvetica,Geneva">
+  <input type="hidden" name="headingfontsize" value="24">
+  <input type="hidden" name="normalfont" value="Arial,Helvetica,Geneva">
+  <input type="hidden" name="normalfontsize" value="22">
+  <input type="hidden" name="tablewidth" value="500">
+  <input type="hidden" name="title" value="Pfadiquiz">
+  <input type="hidden" name="questioncount" value="12">
+  
+  <input type="hidden" name="typeFrage0" value="TSingleQuestion">
+  <input type="hidden" name="typeFrage1" value="TSingleQuestion">
+  <input type="hidden" name="typeFrage2" value="TSingleQuestion">
+  <input type="hidden" name="typeFrage3" value="TSingleQuestion">
+  <input type="hidden" name="typeFrage4" value="TSingleQuestion">
+  <input type="hidden" name="typeFrage5" value="TSingleQuestion">
+  <input type="hidden" name="typeFrage6" value="TSimpleQuestion">
+  <input type="hidden" name="typeFrage7" value="TMultiQuestion">
+  <input type="hidden" name="typeFrage8" value="TSingleQuestion">
+  <input type="hidden" name="typeFrage9" value="TSingleQuestion">
+  <input type="hidden" name="typeFrage10" value="TSimpleQuestion">
+  <input type="hidden" name="typeFrage11" value="TSingleQuestion">
+
+  <input type="hidden" name="countFrage0" value="2">
+  <input type="hidden" name="countFrage1" value="4">
+  <input type="hidden" name="countFrage2" value="3">
+  <input type="hidden" name="countFrage3" value="6">
+  <input type="hidden" name="countFrage4" value="4">
+  <input type="hidden" name="countFrage5" value="6">
+  <input type="hidden" name="countFrage6" value="1">
+  <input type="hidden" name="countFrage7" value="7">
+  <input type="hidden" name="countFrage8" value="5">
+  <input type="hidden" name="countFrage9" value="4">
+  <input type="hidden" name="countFrage10" value="1">
+  <input type="hidden" name="countFrage11" value="4">
+
+  <input type="hidden" name="beschrFrage0" value="Kann man Brot eigentlich einfrieren?">
+  <input type="hidden" name="beschrFrage1" value="Mit was lässt sich ein Lagerfeuer hervorragend bei nassem Wetter anzünden?">
+  <input type="hidden" name="beschrFrage2" value="Wie viele Kalorien hat ein Döner?">
+  <input type="hidden" name="beschrFrage3" value="Wie heißt der abgebildete Knoten?">
+  <input type="hidden" name="beschrFrage4" value="Für was verwenden wir bei den Pfadfindern den Palstek?">
+  <input type="hidden" name="beschrFrage5" value="Um welche Pflanze handelt es sich?">
+  <input type="hidden" name="beschrFrage6" value="die Sonne geht im ______ auf. (Himmelsrichtung, nicht Lied)">
+  <input type="hidden" name="beschrFrage7" value="Wann wurde die alte St. Josefs-Kirche wegen Einsturzgefahr gesperrt? (Mehrfachantworten möglich)">
+  <input type="hidden" name="beschrFrage8" value="Was passiert wenn man diese Pflanze anfasst?">
+  <input type="hidden" name="beschrFrage9" value="Welche der folgenden Aussagen ist richtig?">
+  <input type="hidden" name="beschrFrage10" value="Bei welchem Spiel läufst du entweder voll lost rum, bist cringe oder sus und machst safe den ein oder anderen randomvote? (awkward, nicht wahr?)">
+  <input type="hidden" name="beschrFrage11" value="Orientierungshilfe bietet dir Moos denn Moos wächst vor allem an der _____-seite von Bäumen.">
+
+  <input type="hidden" name="FA0" value="J2tddg==">
+  <input type="hidden" name="FA1" value="J2tVfmV8cnllfnlzcg==">
+  <input type="hidden" name="FA2" value="JmsgICc3fHR2ew==">
+  <input type="hidden" name="FA3" value="JGtadmRjYGJlcQ==">
+  <input type="hidden" name="FA4" value="J2tdYmVjcnlzdnR/N394dH9tfnJ/cnk=">
+  <input type="hidden" name="FA5" value="I2tSfnR/cg==">
+  <input type="hidden" name="FA6" value="WGRjcnk=">
+  <input type="hidden" name="FA7" value="UWV2cHIvSCdrfGJlbTdheGU3QHJ+f3l2dH9jcnk0UWV2cHIvSCRrJScmJjRRZXZwci9II2t8YmVtN2F4ZTdzcno3Iic6ffN/ZX5wcnk3XWJ1fnvzYno=">
+  <input type="hidden" name="FA8" value="JmtBcmV1ZXJ5eWJ5cHJ5NyY6JTdQZXZzcmQ=">
+  <input type="hidden" name="FA9" value="JWtTfnI3R3F2c3F+eXNyZTdkfnlzN3N+cjdwZeHIY3I3XWJwcnlzdXJgcnBieXA3c3JlN0Bye2M=">
+  <input type="hidden" name="FA10" value="Vnp4eXA3QmQ=">
+  <input type="hidden" name="FA11" value="J2tZeGVz">
+
+  <input type="hidden" name="FA_USER_0_0" value="SmE=">
+  <input type="hidden" name="FA_USER_0_1" value="TmVpbg==">
+  <input type="hidden" name="FA_USER_1_0" value="Qmlya2VucmluZGU=">
+  <input type="hidden" name="FA_USER_1_1" value="VGFubmVuemFwZmVu">
+  <input type="hidden" name="FA_USER_1_2" value="TGluZGVuc3DkaG5l">
+  <input type="hidden" name="FA_USER_1_3" value="RWljaGVuYmz8dGVu">
+  <input type="hidden" name="FA_USER_2_0" value="MzUwIGtjYWw=">
+  <input type="hidden" name="FA_USER_2_1" value="NzcwIGtjYWw=">
+  <input type="hidden" name="FA_USER_2_2" value="MTQ0MCBrY2Fs">
+  <input type="hidden" name="FA_USER_3_0" value="QWNodGVya25vdGVu">
+  <input type="hidden" name="FA_USER_3_1" value="RnJldW5kc2NoYWZ0c2tub3Rlbg==">
+  <input type="hidden" name="FA_USER_3_2" value="QWJzcGFubmtub3Rlbg==">
+  <input type="hidden" name="FA_USER_3_3" value="TWFzdHd1cmY=">
+  <input type="hidden" name="FA_USER_3_4" value="UGFsc3Rlaw==">
+  <input type="hidden" name="FA_USER_3_5" value="R2FsZ2VuZGtub3Rlbg==">
+  <input type="hidden" name="FA_USER_4_0" value="SnVydGVuZGFjaCBob2NoemllaGVu">
+  <input type="hidden" name="FA_USER_4_1" value="SnVydGVuZGFjaCBhYnNwYW5uZW4=">
+  <input type="hidden" name="FA_USER_4_2" value="SnVydGVuZGFjaCBhdWZ3aWNrZWxu">
+  <input type="hidden" name="FA_USER_4_3" value="U3RhbmdlbiB2ZXJiaW5kZW4=">
+  <input type="hidden" name="FA_USER_5_0" value="Qmlya2U=">
+  <input type="hidden" name="FA_USER_5_1" value="QnVjaGU=">
+  <input type="hidden" name="FA_USER_5_2" value="RmljaHRl">
+  <input type="hidden" name="FA_USER_5_3" value="QWhvcm4=">
+  <input type="hidden" name="FA_USER_5_4" value="RWljaGU=">
+  <input type="hidden" name="FA_USER_5_5" value="RXJsZQ==">
+  <input type="hidden" name="FA_USER_7_0" value="a3VyeiB2b3IgV2VpaG5hY2h0ZW4=">
+  <input type="hidden" name="FA_USER_7_1" value="MjAxNQ==">
+  <input type="hidden" name="FA_USER_7_2" value="MTk4OA==">
+  <input type="hidden" name="FA_USER_7_3" value="MjAxMQ==">
+  <input type="hidden" name="FA_USER_7_4" value="a3VyeiB2b3IgZGVtIDUwLWrkaHJpZ2VuIEp1Ymls5HVt">
+  <input type="hidden" name="FA_USER_7_5" value="a3VyeiBuYWNoIGRlciBSZW5vdmllcnVuZw==">
+  <input type="hidden" name="FA_USER_7_6" value="bmFjaCBkZW0gZ3Jv32VuIEhvbHpraXJjaGVuYnJhbmQ=">
+  <input type="hidden" name="FA_USER_8_0" value="Tml4">
+  <input type="hidden" name="FA_USER_8_1" value="VmVyYnJlbm51bmdlbiAxLTIgR3JhZGVz">
+  <input type="hidden" name="FA_USER_8_2" value="cGVsemlnZXMgR2Vm/GhsIGltIE11bmQ=">
+  <input type="hidden" name="FA_USER_8_3" value="bWFuIGJla29tbXQgU3VwZXJrcuRmdGU=">
+  <input type="hidden" name="FA_USER_8_4" value="ZWluIPxiZWxyaWVjaGVuZGVzIFNla3JldCB0cml0dCBhdXM=">
+  <input type="hidden" name="FA_USER_9_0" value="RGllIFBmYWRmaW5kZXIgaGFiZW4gZGVuIEtvbXBhc3MgZXJmdW5kZW4=">
+  <input type="hidden" name="FA_USER_9_1" value="RXMgZ2lidCBkaWUgUGZhZGZpbmRlciBzY2hvbiBzZWl0IDM1MCBKYWhyZW4=">
+  <input type="hidden" name="FA_USER_9_2" value="RGllIFBmYWRmaW5kZXIgc2luZCBkaWUgZ3L233RlIEp1Z2VuZGJld2VndW5nIGRlciBXZWx0">
+  <input type="hidden" name="FA_USER_9_3" value="IFJpY2hhcmQgQmFkZW4gUG93ZWwgaGF0IGRpZSBQZmFkZmluZGVyIGdlZ3L8bmRldA==">
+  <input type="hidden" name="FA_USER_11_0" value="Tm9yZA==">
+  <input type="hidden" name="FA_USER_11_1" value="T3N0">
+  <input type="hidden" name="FA_USER_11_2" value="U/xk">
+  <input type="hidden" name="FA_USER_11_3" value="V2VzdA==">
+
+      <table  width="500" border="0" cellpadding="6" cellspacing="2" align="center" class="tableback">
+        <tr>
+          <td><h1>Pfadiquiz<br>
+            </h1></td>
+        </tr>
+        <tr>
+          <td><p>Willkommen zu unserem Online Quiz
+ <br>
+            </p><hr height="1" width="100%"></td>
+        </tr>
+        <td>
+<b>Bitte gib deinen Namen ein:</b>
+<table width="100%"  border="0" cellspacing="1" cellpadding="0">
+  <tr>
+    <td align="right">Ihr Vorname:</td>
+    <td>&nbsp;<input class="field"  name="LVorname" type="text" size="25"></td>
+  </tr>
+</table>
+<hr height="1" width="100%"></td>
+
+
+        <tr><td><img src="bilder/bild1.jpg" border="0"></td></tr>
+<tr>
+<td class="link"><b>Kann man Brot eigentlich einfrieren?</b><br>
+<input class="field"  type="radio" name="Frage1" value="0"> Ja<br>
+<input class="field"  type="radio" name="Frage1" value="1"> Nein<br>
+<hr height="1" width="100%">
+	</td>
+</tr>
+
+<tr><td><img src="bilder/bild2.jpg" border="0"></td></tr>
+<tr>
+<td class="link"><b>Mit was lässt sich ein Lagerfeuer hervorragend bei nassem Wetter anzünden?</b><br>
+<input class="field"  type="radio" name="Frage2" value="0"> Birkenrinde<br>
+<input class="field"  type="radio" name="Frage2" value="1"> Tannenzapfen<br>
+<input class="field"  type="radio" name="Frage2" value="2"> Lindenspähne<br>
+<input class="field"  type="radio" name="Frage2" value="3"> Eichenblüten<br>
+<hr height="1" width="100%">
+	</td>
+</tr>
+
+<tr><td><img src="bilder/bild3.jpg" border="0"></td></tr>
+<tr>
+<td class="link"><b>Wie viele Kalorien hat ein Döner?</b><br>
+<input class="field"  type="radio" name="Frage3" value="0"> 350 kcal<br>
+<input class="field"  type="radio" name="Frage3" value="1"> 770 kcal<br>
+<input class="field"  type="radio" name="Frage3" value="2"> 1440 kcal<br>
+<hr height="1" width="100%">
+	</td>
+</tr>
+
+<tr><td><img src="bilder/bild4.jpg" border="0"></td></tr>
+<tr>
+<td class="link"><b>Wie heißt der abgebildete Knoten?</b><br>
+<input class="field"  type="radio" name="Frage4" value="0"> Achterknoten<br>
+<input class="field"  type="radio" name="Frage4" value="1"> Freundschaftsknoten<br>
+<input class="field"  type="radio" name="Frage4" value="2"> Abspannknoten<br>
+<input class="field"  type="radio" name="Frage4" value="3"> Mastwurf<br>
+<input class="field"  type="radio" name="Frage4" value="4"> Palstek<br>
+<input class="field"  type="radio" name="Frage4" value="5"> Galgendknoten<br>
+<hr height="1" width="100%">
+	</td>
+</tr>
+
+<tr><td><img src="bilder/bild5.jpg" border="0"></td></tr>
+<tr>
+<td class="link"><b>Für was verwenden wir bei den Pfadfindern den Palstek?</b><br>
+<input class="field"  type="radio" name="Frage5" value="0"> Jurtendach hochziehen<br>
+<input class="field"  type="radio" name="Frage5" value="1"> Jurtendach abspannen<br>
+<input class="field"  type="radio" name="Frage5" value="2"> Jurtendach aufwickeln<br>
+<input class="field"  type="radio" name="Frage5" value="3"> Stangen verbinden<br>
+<hr height="1" width="100%">
+	</td>
+</tr>
+
+<tr><td><img src="bilder/bild6.jpg" border="0"></td></tr>
+<tr>
+<td class="link"><b>Um welche Pflanze handelt es sich?</b><br>
+<input class="field"  type="radio" name="Frage6" value="0"> Birke<br>
+<input class="field"  type="radio" name="Frage6" value="1"> Buche<br>
+<input class="field"  type="radio" name="Frage6" value="2"> Fichte<br>
+<input class="field"  type="radio" name="Frage6" value="3"> Ahorn<br>
+<input class="field"  type="radio" name="Frage6" value="4"> Eiche<br>
+<input class="field"  type="radio" name="Frage6" value="5"> Erle<br>
+<hr height="1" width="100%">
+	</td>
+</tr>
+
+<tr><td><img src="bilder/bild7.jpg" border="0"></td></tr>
+<tr>
+<td class="link"><b>die Sonne geht im ______ auf. (Himmelsrichtung, nicht Lied)</b><br>
+<input class="field"  name="Frage7_0" size="15" maxlength="100" type="text"><br>
+<hr height="1" width="100%">
+	</td>
+</tr>
+
+<tr><td><img src="bilder/bild8.jpg" border="0"></td></tr>
+<tr>
+<td class="link"><b>Wann wurde die alte St. Josefs-Kirche wegen Einsturzgefahr gesperrt? (Mehrfachantworten möglich)</b><br>
+<input class="field"  type="checkbox" name="Frage8_0" value="set"> kurz vor Weihnachten<br>
+<input class="field"  type="checkbox" name="Frage8_1" value="set"> 2015<br>
+<input class="field"  type="checkbox" name="Frage8_2" value="set"> 1988<br>
+<input class="field"  type="checkbox" name="Frage8_3" value="set"> 2011<br>
+<input class="field"  type="checkbox" name="Frage8_4" value="set"> kurz vor dem 50-jährigen Jubiläum<br>
+<input class="field"  type="checkbox" name="Frage8_5" value="set"> kurz nach der Renovierung<br>
+<input class="field"  type="checkbox" name="Frage8_6" value="set"> nach dem großen Holzkirchenbrand<br>
+<hr height="1" width="100%">
+	</td>
+</tr>
+
+<tr><td><img src="bilder/bild9.jpg" border="0"></td></tr>
+<tr>
+<td class="link"><b>Was passiert wenn man diese Pflanze anfasst?</b><br>
+<input class="field"  type="radio" name="Frage9" value="0"> Nix<br>
+<input class="field"  type="radio" name="Frage9" value="1"> Verbrennungen 1-2 Grades<br>
+<input class="field"  type="radio" name="Frage9" value="2"> pelziges Gefühl im Mund<br>
+<input class="field"  type="radio" name="Frage9" value="3"> man bekommt Superkräfte<br>
+<input class="field"  type="radio" name="Frage9" value="4"> ein übelriechendes Sekret tritt aus<br>
+<hr height="1" width="100%">
+	</td>
+</tr>
+
+<tr><td><img src="bilder/bild10.jpg" border="0"></td></tr>
+<tr>
+<td class="link"><b>Welche der folgenden Aussagen ist richtig?</b><br>
+<input class="field"  type="radio" name="Frage10" value="0"> Die Pfadfinder haben den Kompass erfunden<br>
+<input class="field"  type="radio" name="Frage10" value="1"> Es gibt die Pfadfinder schon seit 350 Jahren<br>
+<input class="field"  type="radio" name="Frage10" value="2"> Die Pfadfinder sind die größte Jugendbewegung der Welt<br>
+<input class="field"  type="radio" name="Frage10" value="3">  Richard Baden Powel hat die Pfadfinder gegründet<br>
+<hr height="1" width="100%">
+	</td>
+</tr>
+
+<tr><td><img src="bilder/bild11.png" border="0"></td></tr>
+<tr>
+<td class="link"><b>Bei welchem Spiel läufst du entweder voll lost rum, bist cringe oder sus und machst safe den ein oder anderen randomvote? (awkward, nicht wahr?)</b><br>
+<input class="field"  name="Frage11_0" size="15" maxlength="100" type="text"><br>
+<hr height="1" width="100%">
+	</td>
+</tr>
+
+<tr><td><img src="bilder/bild12.JPG" border="0"></td></tr>
+<tr>
+<td class="link"><b>Orientierungshilfe bietet dir Moos denn Moos wächst vor allem an der _____-seite von Bäumen.</b><br>
+<input class="field"  type="radio" name="Frage12" value="0"> Nord<br>
+<input class="field"  type="radio" name="Frage12" value="1"> Ost<br>
+<input class="field"  type="radio" name="Frage12" value="2"> Süd<br>
+<input class="field"  type="radio" name="Frage12" value="3"> West<br>
+<hr height="1" width="100%">
+	</td>
+</tr>
+
+
+        <!-- CAPTCHA -->
+        
+        <!-- INPUTD -->
+        <tr>
+          <td><p class="my"><br>
+            </p></td>
+        </tr>
+        <tr>
+          <td>
+          	<input type="submit" name="next" value="Absenden" class="button">
+            <input type="reset" name="next" value="Zurücksetzen" class="button">
+            <!-- PRINTBUTTON -->
+          </td>
+        </tr>
+      </table>
+</form>
+</body>
+</html>
